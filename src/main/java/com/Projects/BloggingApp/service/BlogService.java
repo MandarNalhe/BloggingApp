@@ -1,11 +1,12 @@
-package com.Projects.BloggingApp;
+package com.Projects.BloggingApp.service;
 
 import com.Projects.BloggingApp.model.Blog;
+import com.Projects.BloggingApp.repo.BlogRepo;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class BlogService {

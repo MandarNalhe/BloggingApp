@@ -1,4 +1,4 @@
-package com.Projects.BloggingApp;
+package com.Projects.BloggingApp.repo;
 
 import com.Projects.BloggingApp.model.Blog;
 import org.springframework.data.jpa.repository.JpaRepository;

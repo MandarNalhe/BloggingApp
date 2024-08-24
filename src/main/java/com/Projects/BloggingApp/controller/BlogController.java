@@ -1,11 +1,11 @@
-package com.Projects.BloggingApp;
+package com.Projects.BloggingApp.controller;
 
 import com.Projects.BloggingApp.model.Blog;
+import com.Projects.BloggingApp.service.BlogService;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
 import java.util.List;
 
 @RestController
